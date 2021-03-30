@@ -1,0 +1,1059 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Iujos blue
+Version:    1.4
+Last change:    10/05/2018 [fixed Float bug, vf]
+Author Name:	Aflame ORG
+Primary use:    Landing Page
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Number of contents]
+
+1. Reset Css
+2. Dafult Css
+3. Button Css
+4. All Background image And Background Overly Css
+5. All Section Title Css
+6. Header Section Css
+7. Feature Section Css
+8. About Section Css
+9. Work Section Css
+10. Fun fect and Client Section Css
+11. Pricing table Css
+12. App Download Section Css
+13. Team Section Css
+14. Contact Css
+15. Footer Css
+16. Slick Slider Css
+
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    1--Reset Css
+==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+a:hover{text-decoration: none;}
+body{
+	font-family: 'Lato', sans-serif;
+}
+/*
+==========================================
+    2--Dafult Css
+==========================================
+*/
+
+.sectionPadding {
+	padding: 100px 0;
+}
+.marginTopHundred{
+    margin-top: 100px;
+}
+.marginBottomHundred {
+	margin-bottom: 100px;
+}
+
+.blueBgColor{
+	background: #4c86c6;
+	color: #fff;
+}
+.blueColor{
+	color: #4c86c6;
+}
+.blackColor{
+	color: #000;
+}
+.whiteColor{
+	color: #fff;
+}
+
+
+
+
+/*
+==========================================
+    3--Button Css
+==========================================
+*/
+.lujosBtn {
+	border: none;
+	font-family: Open Sans;
+	font-weight: bold;
+	/* border-radius: 68px; */
+	position: relative;
+	padding: 15px 35px;
+}
+.largeBtn {
+	padding: 0 60px;
+	font-size: 18px;
+	height: 60px;
+	border-radius: 30px 30px;
+}
+.smallBtn {
+	font-size: 18px;
+	font-family: Lato;
+	padding: 18px 45px;
+	margin: 20px 0 0;
+	font-weight: bold;
+	letter-spacing: 1.8px;
+}
+.lujosBtn:hover {
+  background: #4c86c6;
+  color: #fff;
+    box-shadow: 0 0 5px -1px #000;
+}
+
+
+
+/*
+==========================================
+    4--All Background image And Background Overly Css
+==========================================
+*/
+.paralaxBg {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-attachment: fixed; 
+}
+.headerSectionBg {
+	background: url(../img/topbg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.funFactSectionBg {
+	background: url(../img/funfact.jpg) 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.appDownloadSectionBg {
+	background: url(../img/dnload.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.SectionBgOverly {
+	background: #414141;
+	opacity: .9;
+}
+.SectionBgOverlyFunpect{
+	background: #1b1b1b;
+	opacity: .9;
+}
+
+
+/*
+==========================================
+    5--All Section Title Css
+==========================================
+*/
+.sectionTitle {
+	margin-bottom: 100px;
+}
+.sectionTitleText {
+	text-align: center;
+}
+.sectionTitleText h3 {
+	font-size: 36px;
+	color: #000;
+	margin: 0;
+	padding: 0 0 50px 0;
+	font-family: Open Sans;
+	font-weight: bold;
+}
+.sectionTitleText p {
+	font-size: 17.97px;
+	color: #505050;
+	margin: 0;
+	font-family: Lato;
+	font-weight: 700;
+	letter-spacing: 0.8px;
+	line-height: 27.96px;
+}
+.whiteColor h3, .whiteColor p {
+    color: #fff;
+}
+
+.aboutSection p {
+	color: #505050;
+}
+
+/*
+==========================================
+    6--Header Section Css
+==========================================
+*/
+
+.header{
+	position: relative;
+}
+.topSectionHeader {
+	padding: 40px 0 42px 0;
+	background: #fff;
+}
+
+.desktopLogo a {
+	font-size: 42px;
+	font-weight: 900;
+	font-family: raleway;
+	color: #4c86c6;
+	line-height: .8;
+}
+.mobileLogo a {
+	font-size: 42px;
+	font-weight: 900;
+	font-family: raleway;
+	color: #4c86c6;
+	line-height: .8;
+}
+.mainMenuMobile {
+	display: none;
+}
+.mainMenuDesktop ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.mainMenuDesktop ul li {
+	padding: 8px 0 0 30px;
+	position: relative;
+	float: left;
+}
+.mainMenuDesktop ul li a {
+	color: #2c2c2c;
+	font-size: 14px;
+	font-family: Lato;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+    
+}
+.mainMenuDesktop ul li.active a {
+	color: #4c86c6;
+	text-decoration: underline;
+}
+.mainMenuDesktop ul li a:hover {
+	background: none;
+}
+
+.desktopLogo a, .mobileLogo a, .topSectionHeader, .WorkSectionContentSingle:hover, .WorkSectionContentSingle:hover i, .WorkSectionContentSingle, .WorkSectionContentSingle i, .featureContentSingle:hover h4, .featureContentSingle h4, .featureContentSingle i, .featureContentSingle:hover i,.featureContentSingle, .featureContentSingle:hover, .is-sticky .topSectionHeader, .iojusBtn:hover, .iojusBtn, .pricingSectionContentTable:hover .pricingSectionContentTablePrice{
+    transition: all 0.6s ease 0s;
+    -webkid-transition: all 0.6s ease 0s;
+    -o-transition: all 0.6s ease 0s;
+    -moz-transition: all 0.6s ease 0s;
+}
+
+.sticky-wrapper {
+	position: absolute;
+	width: 100%;
+	z-index: 99999;
+	top: 0;
+}
+.is-sticky .topSectionHeader:after {
+	background: #fff;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.is-sticky .topSectionHeader {
+	padding: 10px 0;
+	box-shadow: 0px 0 6px -2px #000;
+}
+
+.is-sticky .desktopLogo a {
+	font-size: 30px;
+	line-height: .8;
+}
+.is-sticky .mainMenuDesktop ul li {
+	padding: 0 0 0 35px;
+}
+/*
+	Header Content
+*/
+.topSectionContent {
+	padding-top: 154px;
+}
+.topSectionContentText {
+	padding: 200px 0 200px 0;
+}
+.topSectionContentText h2 {
+	color: #fff;
+	font-family: raleway;
+	font-weight: 900;
+	font-size: 50px;
+}
+.topSectionContentText p {
+	color: #fff;
+	font-size: 18px;
+	font-family: Lato;
+	margin: 40px 0 45px 0;
+	font-weight: 400;
+	letter-spacing: .8px;
+}
+
+
+
+
+
+
+/*
+==========================================
+    7--Feature Section Css
+==========================================
+*/
+
+.featureContentSingle {
+	height: auto;
+	padding: 30px;
+	border: 2px solid #878787;
+}
+.featureContentSingle:hover {
+	border: 2px solid #4c86c6;
+	box-shadow: 4px 0 24px -10px #000;
+}
+
+.featureContentSingle:hover i {
+	color: #4c86c6;
+}
+
+.featureContentSingle:hover h4{
+	color: #4c86c6;
+}
+
+.featureContentSingleText {
+	margin: 0 0 0 36px;
+	padding: 0 0 0 0;
+}
+.featureContentSingleText i {
+	font-size: 42.46px;
+	position: relative;
+	color: #878787;
+}
+.featureContentSingleText h4 {
+	font-size: 18px;
+	font-family: Open Sans;
+	font-weight: bold;
+	color: #2c2c2c;
+	margin: 0;
+	padding: 30px 0 22px 0;
+	position: relative;
+	text-transform: capitalize;
+}
+.featureContentSingleText p {
+	font-size: 15px;
+	font-family: Lato;
+	color: #000;
+	font-weight: 400;
+	letter-spacing: .8px;
+	line-height: 24px;
+}
+
+
+/*
+==========================================
+    8--About Section Css
+==========================================
+*/
+.aboutSection {
+	position: relative;
+	background: #f0f0f0;
+}
+.aboutSectionVedio video {
+	width: 100%;
+	height: 365px;
+}
+.aboutSectionContentText p {
+	font-size: 15px;
+	color: #000;
+	font-family: Lato;
+	font-weight: 400;
+	letter-spacing: .5px;
+	line-height: 28px;
+}
+.aboutSectionContentText p span {
+	margin-top: 30px;
+	display: block;
+}
+
+/*
+==========================================
+    9--Work Section Css
+==========================================
+*/
+
+.WorkSectionVedioFrame {
+	position: relative;
+	margin: 0 0 100px 0;
+}
+.workSectionVedio {
+	height: 280px;
+	width: 498px;
+	position: relative;
+	box-shadow: 1px 0 15px -7px #000;
+	border-radius: 0;
+	margin: 0 0 0 4%;
+}
+.workSectionVedio video {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+
+.WorkSectionContentSingle {
+	text-align: left;
+	padding: 45px 25px 30px 65px;
+	border: 2px solid #878787;
+}
+.WorkSectionContentSingle:hover {
+	border: 2px solid #4c86c6;
+	box-shadow: 4px 0 24px -10px #000;
+}
+.WorkSectionContentSingle:hover i {
+	color:  #4c86c6;
+}
+.WorkSectionContentSingle i {
+  font-size: 30px;
+  color: #878787;
+}
+.WorkSectionContentSingle h4 {
+	font-size: 18px;
+	font-family: Open Sans;
+	margin: 0;
+	padding: 30px 0 20px 0;
+	color: #2c2c2c;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.WorkSectionContentSingle p {
+	font-size: 14px;
+	font-family: Lato;
+	color: #2c2c2c;
+	margin: 0;
+	letter-spacing: .8px;
+	line-height: 24px;
+}
+/*
+==========================================
+    10--Fun fect and Client Section Css
+==========================================
+*/
+
+.funFactAndClientSection {
+	position: relative;
+}
+
+.clientCommentReview {
+	padding: 45px 65px 40px;
+	border: 2px solid #fff;
+}
+.clientCommentReview p {
+	font-size: 15px;
+	text-align: left;
+	font-family: Lato;
+	color: #fff;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: .px;
+	margin-bottom: 40px;
+}
+.starIcon {
+  overflow: hidden;
+  display: block;
+}
+.starIcon ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.starIcon ul li {
+  float: left;
+  padding: 0 5px;
+  font-size: 20px;
+}
+.starIcon ul li i.fillIconColor {
+	color: #4c86c6;
+}
+.starIcon ul li i.unfillIconColor {
+	color: #fff;
+}
+
+
+.clientDetails {
+	padding: 40px 85px;
+	position: relative;
+}
+.clientDetailsText {
+	display: block;
+	float: left;
+}
+.clientDetails h4 {
+	font-size: 28px;
+	padding: 0 0 20px 0;
+	font-family: Open Sans;
+	margin: 0;
+	color: #fff;
+	font-weight: bold;
+}
+.clientDetails p {
+	font-size: 18px;
+	font-family: Lato;
+	font-weight: 700;
+	color: #fff;
+}
+
+.clientImage {
+	height: 162px;
+	width: 162px;
+	margin: -70px 0 0 0;
+	border: 2px solid #fff;
+	background: #878787;
+	float: right;
+}
+.clientImage img{
+	height: 100%;
+	width: 100%;
+}
+
+
+.funFactSectionContentSingle {
+  text-align: center;
+}
+.funFectIteams ul li {
+	float: left;
+	width: 50%;
+}
+
+.funFactSectionContentSingle i {
+  font-size: 50px;
+  color: #fff;
+}
+.funFactSectionContentSingle h2 {
+	padding: 40px 0 20px 0;
+	margin: 0;
+	color: #fff;
+	font-size: 27.93px;
+	font-family: Lato;
+	font-weight: bold;
+}
+.funFactSectionContentSingle p {
+	font-size: 17.96px;
+	font-family: Open Sans;
+	color: #fff;
+	margin: 0;
+	font-weight: bold;
+}
+
+
+
+/*
+==========================================
+    11--Pricing table Css
+==========================================
+*/
+
+.pricingSectionContentTable {
+	text-align: center;
+	/* box-shadow: 1px 0px 8px -5px #000; */
+	/* border-radius: 50px; */
+	color: #757575;
+}
+.pricingSectionContentTablePrice {
+	padding: 30px 0;
+	/* border-radius: 50px 50px 0 0; */
+	color: #000;
+	position: relative;
+	border-top: 2px solid #878787;
+	border-left: 2px solid #878787;
+	border-right: 2px solid #878787;
+}
+.pricingSectionContentTablePrice::after {
+	content: "";
+	height: 2px;
+	width: 65%;
+	left: 17.5%;
+	position: absolute;
+	background: #878787;
+	bottom: 0;
+}
+.pricingSectionContentTablePrice h4 {
+	font-family: Open Sans;
+	font-weight: Bold;
+    font-size: 18px;
+}
+.pricingSectionContentTablePrice h2 {
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: bold;
+	padding: 12px 0;
+}
+.pricingSectionContentTablePrice p {
+	font-family: Lato;
+	Font-weight: 400;
+	font-size: 14px;
+    
+}
+
+.pricingSectionContentTablePriceDetails {
+	padding: 45px 0;
+	/* border-radius: 0 0 50px 50px; */
+	border-bottom: 2px solid #878787;
+	border-left: 2px solid #878787;
+	border-right: 2px solid #878787;
+}
+.pricingSectionContentTablePriceDetails ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pricingSectionContentTablePriceDetails ul li {
+	font-size: 14px;
+	color: #757575;
+	padding: 0 0 22px 0;
+	font-family: Lato;
+	font-weight: 400;
+}
+
+.pricingSectionContentTable:hover .pricingSectionContentTablePrice {
+	background: #4c86c6;
+	color: #fff;
+	border: none;
+}
+.pricingSectionContentTable:hover .lujosBtn{
+    background: #4c86c6;
+    color: #fff;
+}
+.pricingSectionContentTable:hover .pricingSectionContentTablePrice::after {
+	background: #4c86c6;
+}
+
+
+
+
+/*
+==========================================
+    12--App Download Section Css
+==========================================
+*/
+.appDownloadSection{
+    position: relative;
+}
+.appDownloadSectionContentText {
+	padding: 25px 95px;
+	border: 2px solid #fff;
+	border-radius: 0;
+	color: #fff;
+
+	display: block;
+	overflow: hidden;
+}
+.daonloadIcon {
+	float: left;
+}
+.daonloadIcon i {
+	font-size: 71px;
+	color: #fff;
+}
+
+.appDaonloadIconText {
+	float: left;
+	padding: 0 0 0 30px;
+    color: #fff;
+}
+.appDaonloadIconText p {
+	font-size: 18px;
+	font-family: Lato;
+	margin: 2px 0 10px 0;
+	font-weight: bold;
+}
+.appDaonloadIconText h4 {
+	font-size: 28px;
+	font-family: Open Sans;
+	font-weight: bold;
+}
+.appDownloadSectionContentText:hover {
+	background: #4c86c6;
+    border: none;
+    box-shadow: 1px 0 5px -2px #000;
+}
+.appDownloadSectionContentText:hover, .appDownloadSectionContentText, .appDownloadSectionContentText:hover .appDaonloadIconText h4, .appDownloadSectionContentText:hover .appDaonloadIconText p,  .appDownloadSectionContentText:hover .daonloadIcon i, .appDaonloadIconText h4, .appDaonloadIconText p,  .daonloadIcon i{
+    transition: all 0.6s ease 0s;
+    -webkid-transition: all 0.6s ease 0s;
+    -o-transition: all 0.6s ease 0s;
+    -moz-transition: all 0.6s ease 0s;
+}
+
+/*
+==========================================
+    13--Team Section Css
+==========================================
+*/
+.teamSection {
+	background: #f0f0f0;
+}
+.teamSectionContentSingle {
+	width: auto;
+	height: auto;
+	position: relative;
+	width: 100%;
+}
+
+.teamSectionContentSingleImg {
+	width: 100%;
+	height: 255px;
+}
+.teamSectionContentSingleImg img {
+	height: 100%;
+	width: 100%;
+}
+.teamSectionContentSingleDetails {
+	text-align: center;
+	padding: 40px 0;
+}
+.teamSectionContentSingleDetails h4 {
+	font-size: 18px;
+	color: #000;
+	margin: 0;
+	font-family: Lato;
+	font-weight: 700;
+}
+.teamSectionContentSingleDetails p {
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 18px 0 0 0;
+	font-family: Lato;
+	font-weight: 400;
+}
+
+
+
+.teamSectionContentSingleImg::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 255px;
+	content: "";
+	background: #4d4d4d;
+	z-index: 9;
+	opacity: .7;
+    display: none;
+}
+.hoverItemTeamSectionContentSingleDetails {
+	display: none;
+	overflow: hidden;
+	padding: 0 45px;
+}
+.hoverItemTeamSectionContentSingleDetails ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.hoverItemTeamSectionContentSingleDetails ul li {
+	float: left;
+	margin: 0 9.5px 0 9.5px;
+	width: 36px;
+	height: 36px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	padding: 4px 0 0 7px;
+}
+.hoverItemTeamSectionContentSingleDetails ul li:hover {
+     background: #fff;
+}
+.hoverItemTeamSectionContentSingleDetails ul li:hover  a i{
+     color: #4c86c6;
+}
+.hoverItemTeamSectionContentSingleDetails ul li a i {
+  font-size: 20px;
+  color: #fff;
+}
+
+.teamSectionContentSingle:hover .teamSectionContentSingleImg::before {
+
+     display: block;
+}
+.teamSectionContentSingle:hover .hoverItemTeamSectionContentSingleDetails {
+	display: block;
+	position: absolute;
+	top: 30%;
+	z-index: 999;
+	width: 100%;
+}
+.teamSectionContentSingle:hover .teamSectionContentSingleDetails {
+	background: #4d4d4d;
+}
+.teamSectionContentSingle:hover .teamSectionContentSingleDetails h4{
+    color: #fff;
+}
+.teamSectionContentSingle:hover .teamSectionContentSingleDetails p{
+    color: #fff;
+}
+.teamSectionContentSingleDetails p, .teamSectionContentSingleDetails h4{
+    transition: all 0.6s ease 0s;
+    -webkid-transition: all 0.6s ease 0s;
+    -o-transition: all 0.6s ease 0s;
+    -moz-transition: all 0.6s ease 0s;
+}
+
+/*
+==========================================
+    14--Contact Css
+==========================================
+*/
+
+.getTouchSection {
+	background: #fff;
+}
+
+.getTouchSectionContentContact {
+	background: #fff;
+	padding: 35px 65px;
+	border-radius: 20px;
+	display: block;
+	overflow: hidden;
+}
+.input-form {
+  position: relative;
+  margin-bottom: 40px;
+}
+.input-form i {
+  position: absolute;
+  top: 11px;
+  left: 7px;
+  font-size: 18px;
+  color: #505050;
+}
+.input-form input, textarea {
+	padding: 7px 0 0 50px;
+	border-top: none;
+	border-left: none;
+	border-bottom: 1px solid #757575;
+	border-right: none;
+	width: 100%;
+	font-size: 18px;
+	font-family: Lato;
+	color: #505050;
+	font-weight: 700;
+}
+.sendBtn {
+	padding: 0 30px;
+	background: #4c86c6;
+	color: #fff;
+	font-family: Open Sans;
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+	border-radius: 30px 30px 30px 30px;
+	height: 50px;
+}
+
+
+.getTouchSectionContentContactInfo {
+	background: #fff;
+	padding: 50px 65px;
+	border-radius: 17px;
+}
+
+.getTouchSectionContentContactInfo ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+.getTouchSectionContentContactInfo ul li {
+   margin-bottom: 50px; 
+}
+.getTouchSectionContentContactInfo ul li i {
+  position: absolute;
+  font-size: 28px;
+  left: 0;
+  color: #4c86c6;
+}
+.getTouchSectionContentContactInfo ul li p {
+	font-size: 17.97px;
+	font-family: Lato;
+	padding: 0 0 0 60px;
+	color: #000;
+	font-weight: 700;
+	line-height: 27.5px;
+}
+.getTouchSectionContentContactInfo .notPadding {
+	margin: 0;
+}
+
+
+/*
+==========================================
+    15--Footer Css
+==========================================
+*/
+
+
+.footerSection {
+	background: #4c86c6;
+}
+.footerSectionContent{
+    padding: 50px 0;
+}
+.footerSectionContentCopyright p {
+	margin: 0;
+	font-size: 18px;
+	color: #fff;
+	font-family: Lato;
+	font-weight: bold;
+}
+.footerSectionContentMenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footerSectionContentMenu ul li {
+	float: left;
+	padding: 0 0 0 40px;
+}
+.footerSectionContentMenu ul li a {
+	font-size: 14px;
+	color: #fff;
+	font-family: Lato;
+	font-weight: 400;
+}
+
+
+
+/*
+==========================================
+    16--Slick Slider Css
+==========================================
+*/
+
+.sin-testiImage {
+    display: inline-block;
+    margin-bottom: 2px;
+    outline: medium none;
+    position: relative;
+}
+
+.sin-testiImage img {
+    /* border: 1px solid #fff; */
+    /* border-radius: 50%; */
+    cursor: pointer;
+    display: inline-block !important;
+    height: 620px;
+    margin-bottom: 0;
+    margin-top: 36px;
+    outline: 0 none;
+    width: 80%;
+    margin: 0 0 0 0;
+    opacity: .5;
+}
+.sin-testiImage.slick-current img {
+    height: 620px;
+    margin-top: 0;
+    opacity: 1;
+    width: 100%;
+}
+.topSectionContent .slick-current {
+    box-shadow: none;
+}
+
+.slick-prev, .slick-next {
+    background: #000;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 15px;
+    height: 27px;
+    outline: medium none;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    width: 27px;
+    border-radius: 50%;
+}
+
+
+.slick-prev {
+    left: -15px;
+}
+.topSectionContent .slick-prev {
+    left: -32%;
+}
+
+.slick-next {
+    right: -15px;
+    background: #4c86c6;
+}
+.topSectionContent .slick-next {
+    right: -32%;
+    background: #4c86c6;
+}
+
+.clientSlider .slick-next, .clientSlider .slick-prev {
+    position: absolute;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

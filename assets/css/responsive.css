@@ -1,0 +1,1266 @@
+/*******************************
+	All Responsive Code
+*******************************/
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+/* header */
+.is-sticky .mainMenuDesktop ul li {
+	 padding: 0 0 0 26px; 
+}
+.mainMenuDesktop ul li {
+	padding: 8px 0 0 26px;
+}
+.topSectionContent .slick-next {
+	right: -28%;
+}
+.topSectionContent .slick-prev {
+	left: -30%;
+}
+
+.teamSectionContentSingleImg {
+	width: 210px;
+}
+
+
+.topSectionContentText h2 {
+	font-size: 45px;
+}
+
+/* section title */
+.sectionTitleText p {
+	font-size: 15.97px;
+}
+
+
+.appDownloadSectionContentText {
+	padding: 25px 55px;
+}
+
+
+.hoverItemTeamSectionContentSingleDetails {
+	padding: 35px 22px;
+}
+
+.footerSectionContentMenu ul li {
+	padding: 0 0 0 20px;
+}
+
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+.topSectionHeader {
+	padding: 20px 0 25px 0;
+}
+.is-sticky .mainMenuDesktop ul li {
+	padding: 0 0 0 23px;
+}
+.topSectionHeaderMainMenu ul li {
+	padding: 5px 0 0 23px;
+}
+.topSectionHeaderMainMenu ul li a {
+	font-size: 13px;
+}
+
+.is-sticky .topSectionHeader {
+	padding: 8px 0;
+}
+
+.topSectionContentText {
+	padding: 80px 0 130px 0;
+}
+
+.topSectionContentText h2 {
+	font-size: 35px;
+}
+.topSectionContentText p {
+	font-size: 15px;
+	margin: 35px 0;
+}
+
+.sectionPadding {
+	padding: 80px 0;
+}
+.sectionTitleText h3 {
+	font-size: 30px;
+	padding: 0 0 35px 0;
+}
+.sectionTitleText p {
+	font-size: 13px;
+	letter-spacing: .3px;
+	line-height: 24.96px;
+}
+.sectionTitle {
+	margin-bottom: 80px;
+}
+
+.featureContentSingle {
+	padding: 25px;
+}
+.featureContentSingleText {
+	margin: 0 0 0 0;
+}
+
+.featureContentSingle i {
+	font-size: 30px;
+}
+.featureContentSingle i::before {
+	height: 50px;
+	width: 50px;
+	top: 5px;
+	left: -5px;
+	padding: 9px;
+}
+
+.paddingBottomHundred {
+	padding-bottom: 80px;
+}
+.featureContentSingleText h4 {
+	font-size: 18px;
+	padding: 10px 0 20px 0;
+}
+
+.featureContentSingleText p {
+	font-size: 14px;
+	letter-spacing: .4px;
+}
+
+
+.sectionTitleText h3 {
+	padding: 0 0 30px 0;
+}
+
+.aboutSectionVedio video {
+	height: 326px;
+}
+.aboutSectionContentText p {
+	font-size: 14px;
+	letter-spacing: .5px;
+	line-height: 21px;
+}
+.aboutSectionContentText p span {
+	margin-top: 20px;
+}
+
+
+.WorkSectionVedioFrame {
+	margin: 0 0 80px 0;
+}
+.workSectionVedio {
+	height: 255px;
+	width: 450px;
+	margin: 0 0 0 0;
+}
+
+.WorkSectionContentSingle {
+	padding: 30px 10px 25px 20px;
+}
+
+.WorkSectionContentSingle h4 {
+	padding: 20px 0;
+}
+
+.clientCommentReview {
+	padding: 25px 25px 20px;
+}
+.clientCommentReview p {
+	line-height: 22px;
+	letter-spacing: .1px;
+	margin-bottom: 15px;
+}
+
+.clientDetails {
+	padding: 30px 20px;
+}
+.clientDetails h4 {
+	font-size: 21px;
+	padding: 0 0 5px 0;
+}
+.clientDetails p {
+	font-size: 16px;
+}
+
+.clientImage {
+	height: 140px;
+	width: 130px;
+	margin: -55px 0 0 0;
+}
+
+.marginBottomHundred {
+	margin-bottom: 80px;
+}
+
+.funFactSectionContentSingle h2 {
+	padding: 30px 0 15px 0;
+	font-size: 25px;
+}
+.funFactSectionContentSingle p {
+	font-size: 16px;
+}
+
+
+
+
+.screenshotSlider .sin-testiImage.slick-current img {
+	height: 386px;
+}
+
+.screenshotSlider .slick-current::after {
+	left: 65px;
+}
+.screenshotSlider .sin-testiImage img {
+	height: 100%;
+}
+.screenshotSlider .slick-current {
+	height: 545px;
+}
+.screenshotSlider .slick-slide {
+	height: 387px;
+}
+.screenshotSlider .slick-next {
+	right: 0px;
+}
+.screenshotSlider .slick-prev {
+	left: 0px;
+}
+.screenshotSlider .slick-prev, .slick-next {
+	font-size: 12px;
+	height: 20px;
+	width: 20px;
+}
+
+
+
+
+
+
+
+.pricingSectionContentTable {
+	border-radius: 20px;
+}
+.pricingSectionContentTablePrice {
+	padding: 25px 0;
+}
+.pricingSectionContentTablePriceDetails {
+	padding: 35px 0;
+}
+.pricingSectionContentTablePrice::after {
+	width: 50%;
+	left: 25.5%;
+}
+.smallBtn {
+	font-size: 16px;
+	padding: 10px 29px;
+	letter-spacing: 0.2px;
+}
+
+
+.appDownloadSectionContentText {
+	padding: 12px 32px;
+}
+.daonloadIcon i {
+	font-size: 60px;
+}
+.appDaonloadIconText p {
+	font-size: 16px;
+	margin: 2px 0 5px 0;
+}
+.appDaonloadIconText h4 {
+	font-size: 24px;
+}
+.appDaonloadIconText {
+	padding: 0 0 0 15px;
+}
+
+.teamSectionContentSingleImg {
+	width: 150px;
+	height: 200px;
+}
+.teamSectionContentSingleDetails {
+	text-align: center;
+	padding: 20px 0;
+}
+.teamSectionContentSingleDetails h4 {
+	font-size: 18px;
+}
+.teamSectionContentSingleDetails p {
+	font-size: 14px;	
+	padding: 5px 0 0 0;
+}
+.teamSectionContentSingleImg::before {
+	height: 200px;
+}
+.hoverItemTeamSectionContentSingleDetails ul li {
+	margin: 0 0 0 5px;
+}
+
+.hoverItemTeamSectionContentSingleDetails ul li a i {
+	font-size: 17px;
+}
+.hoverItemTeamSectionContentSingleDetails {
+	padding: 20px 10px;
+}
+.teamSectionContentSingle:hover .teamSectionContentSingleDetails {
+	left: 15%;
+}
+
+
+
+.getTouchSectionContentContact {
+	padding: 15px 30px;
+}
+.input-form {
+	margin-bottom: 30px;
+}
+.input-form input, textarea {
+	padding: 7px 0 2px 50px;
+	font-size: 16px;
+}
+
+.getTouchSectionContentContactInfo {
+	padding: 25px 25px;
+}
+.getTouchSectionContentContactInfo ul li {
+	margin-bottom: 30px;
+}
+.getTouchSectionContentContactInfo ul li p {
+	font-size: 16px;
+	padding: 0 0 0 42px;
+}
+.getTouchSectionContentContactInfo ul li i {
+	font-size: 25px;
+}
+.sendBtn {
+	padding: 10px 20px;
+	font-size: 16px;
+}
+.footerSectionContentMenu ul li {
+	padding: 0 0 0 10px;
+}
+
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+
+.mobileLogo a {
+	font-size: 30px;
+}
+.mobileLogo {
+	padding: 5px 0;
+}
+.is-sticky .topSectionHeader {
+	padding: 5px 0;
+}
+.topSectionHeader {
+	padding: 0 0 10px 0;
+	
+}
+.mainMenuDesktop {
+	display: none;
+}
+.desktopLogo {
+	display: none;
+}
+.mainMenuMobile {
+	display: block;
+	padding: 10px 15px 0 15px;
+}
+
+.navbar-toggler {
+	float: right;
+}
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+	color: #fff;
+}
+
+
+
+.mobileLogo {
+	float: left;
+}
+.mainMenuMobile ul.navbar-nav {
+	margin: 41px 0 0 0;
+	text-align: center;
+}
+.mainMenuMobile ul.navbar-nav li {
+	padding: 3px 0;
+	border-bottom: 1px solid #a79e9e;
+}
+.mainMenuMobile ul.navbar-nav li a {
+	color: #000;
+	font-weight: 700;
+}
+.is-sticky .mainMenuMobile ul.navbar-nav {
+	background: transparent;
+}
+.is-sticky .topSectionHeader::after {
+	opacity: 0.8;
+}
+
+.topSectionContent {
+	padding-top: 62px;
+}
+
+
+.topSectionContentText {
+	padding: 120px 0 120px 0;
+}
+
+
+.topSectionContentText h2 {
+	font-size: 28px;
+}
+.topSectionContentText p {
+	font-size: 15px;
+	margin: 25px 0;
+	letter-spacing: 0.5px;
+}
+
+.largeBtn {
+	padding: 0 40px;
+	font-size: 16px;
+	height: 50px;
+}
+.topSectionContent .slick-next {
+	right: -7%;
+}
+.topSectionContent .slick-prev {
+	left: -7%;
+}
+
+.sectionTitle {
+	margin-bottom: 70px;
+}
+.sectionTitleText h3 {
+	font-size: 30px;
+	padding: 0 0 30px 0;
+}
+.sectionTitleText p {
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	line-height: 22.96px;
+}
+
+
+.featureContentSingle {
+	padding: 20px;
+}
+.featureContentSingleText {
+	margin: 0 0 0 10px;
+	padding: 0 0 0 0;
+}
+
+.featureContentSingle i {
+	font-size: 25px;
+}
+.featureContentSingleText h4 {
+	font-size: 16px;
+	padding: 10px 0 15px 0;
+}
+.featureContentSingleText p {
+	font-size: 14px;	
+	letter-spacing: .5px;
+}
+.paddingBottomHundred {
+	padding-bottom: 70px;
+}
+
+
+.sectionPadding {
+	padding: 70px 0;
+}
+
+.aboutSectionVedio {
+	margin-bottom: 50px;
+}
+.aboutSectionVedio video {
+	width: 100%;
+	height: 236px;
+}
+.aboutSectionContentText p {
+	font-size: 13px;
+	letter-spacing: .5px;
+	line-height: 23px;
+}
+.aboutSectionContentText p span {
+	margin-top: 20px;
+}
+
+
+.workSectionVedio {
+	height: 235px;
+	width: 418px;
+	margin: 0 0 0 0; 
+}
+.workSectionVedio video {
+	height: 100%;
+	width: 100%;
+}
+.WorkSectionVedioFrame {
+	margin: 0 0 50px 0;
+}
+
+.WorkSectionContentSingle {
+	padding: 30px 20px 30px 30px;
+	margin-bottom: 50px;
+}
+.WorkSectionContentSingle h4 {
+	font-size: 17px;	
+	padding: 20px 0;
+}
+.WorkSectionContentSingle p {
+	
+	letter-spacing: .2px;
+}
+
+
+
+.clientCommentReview {
+	padding: 30px 25px 30px;
+}
+.clientDetails {
+	padding: 30px 35px;
+}
+.clientImage {
+	height: 160px;
+	width: 150px;
+	margin: -63px 0 0 0;
+}
+
+.clientDetails h4 {
+	font-size: 22px;
+}
+.clientDetails p {
+	font-size: 16px;
+}
+#clientSlider {
+	position: relative;
+	margin-bottom: 50px;
+}
+.marginBottomHundred {
+	margin-bottom: 50px;
+}
+.funFactMarginBottom {
+	margin-bottom: 50px;
+}
+.funFactSectionContentSingle h2 {
+	padding: 20px 0 10px 0;
+	font-size: 25px;
+}
+.funFactSectionContentSingle p {
+	font-size: 16px;
+}
+.funFactSectionContentSingle i {
+	font-size: 40px;
+}
+
+
+.slick-current::after {
+	left: 31px;
+}
+.sin-testiImage.slick-current img {
+	height: 260px;
+	margin-top: 56px;
+}
+.slick-current {
+	height: 350px;
+}
+.sin-testiImage img {
+	height: 260px;
+	margin: 57px 0 0 0;
+}
+
+
+
+
+
+.clientSectionContentComent p {
+	font-size: 14px;
+}
+
+
+.pricingSectionContentTable {
+	margin-bottom: 40px;
+}
+
+
+.appDownloadSectionContentText {
+	padding: 14px 20px;
+}
+.appDaonloadIconText {
+	padding: 0 0 0 15px;
+}
+.appDaonloadIconText p {
+	font-size: 16px;
+	margin: 2px 0 0 0;
+}
+.appDaonloadIconText h4 {
+	font-size: 24px;
+}
+.daonloadIcon i {
+	font-size: 50px;
+}
+
+
+.teamSectionContentSingle {
+	margin-bottom: 30px;
+}
+.hoverItemTeamSectionContentSingleDetails {
+	padding: 47px 30px;
+}
+
+.getTouchSectionContentContact {
+	padding: 30px 40px;
+}
+.getTouchSectionContentContact {
+	padding: 20px 20px;
+}
+.input-form input, textarea {
+	padding: 7px 0 2px 40px;
+	font-size: 15px;
+}
+.sendBtn {
+	padding: 10px 20px;
+	font-size: 15px;
+}
+.input-form {
+	margin-bottom: 25px;
+}
+
+
+.getTouchSectionContentContactInfo ul li p {
+	font-size: 13px;
+	padding: 0 0 0 27px;
+	line-height: 15px;
+}
+.getTouchSectionContentContactInfo {
+	padding: 20px 15px;
+}
+.getTouchSectionContentContactInfo ul li i {
+	font-size: 20px;
+}
+
+
+.footerSectionContentCopyright p {
+	font-size: 15px;
+}
+
+.footerSectionContentMenu ul li a {
+	font-size: 13px;
+}
+.footerSectionContentMenu ul li {
+	padding: 0 0 0 10px;
+}
+
+
+
+
+}
+@media only screen and (max-width: 574px) {
+
+.mobileLogo a {
+	font-size: 30px;
+}
+.mobileLogo {
+	padding: 5px 0;
+}
+.topSectionContentText {
+	padding: 50px 0 50px 0;
+}
+.topSectionContentText h2 {
+	font-size: 21px;
+}
+.largeBtn {
+	padding: 0 30px;
+	font-size: 15px;
+	height: 45px;
+}
+
+
+.sectionPadding {
+	padding: 50px 0;
+}
+.sectionTitleText h3 {
+	font-size: 20px;
+	padding: 0 0 20px 0;
+}
+.sectionTitleText p {
+	font-size: 13px;
+	letter-spacing: .1px;
+	line-height: 15px;
+}
+.featureContentSingleText {
+	margin: 0 0 0 10%;
+}
+
+.aboutSectionVedio video {
+	width: 100%;
+	height: 217px;
+}
+
+.workSection {
+	display: none;
+}
+.screenshotSection {
+	display: none;
+}
+
+.aboutSectionContentText p {
+	font-size: 13px;
+}
+.aboutSectionContentText p span {
+	margin-top: 50px;
+}
+.aboutSectionContentText p span {
+	margin-top: 0;
+}
+
+.sectionTitle {
+	margin-bottom: 50px;
+}
+.featureContentSingle i::before {
+	height: 40px;
+	width: 40px;
+	padding: 9px;
+}
+.featureContentSingle {
+	margin-bottom: 10px;
+}
+.paddingBottomHundred {
+	padding-bottom: 0;
+}
+.featureContentSingle i {
+	font-size: 22px;
+}
+.funFactSectionContentSingle h2 {
+	padding: 15px 0 6px 0;
+	font-size: 22px;
+}
+.funFactSectionContentSingle p {
+	font-size: 15px;
+}
+.funFactMarginBottom {
+	/* margin-bottom: 0; */
+}
+.funFactSectionContentSingle {
+	margin-bottom: 50px;
+}
+.funFactSectionContentSingle i {
+	font-size: 35px;
+}
+
+.clientSectionContentTextImgborder {
+	margin: 5px 0 0 28%;
+}
+.clientSectionContentDetails {
+	margin: 0 0 0 21%;
+}
+.clientSectionContentDetails h4 {
+	font-size: 20px;
+	padding: 15px 0;
+}
+.clientSectionContentComent p {
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing: .5px;
+}
+.clientSectionContentDetails p {
+	font-size: 16px;
+}
+
+.topSectionContent .slick-prev {
+	left: 43%;
+	z-index: 9999;
+}
+.topSectionContent .slick-next {
+	right: 44%;
+}
+
+#clientSlider {
+	display: none;
+}
+
+.pricingSectionContentTablePrice {
+	padding: 8px 0;
+	
+}
+.pricingSectionContentTablePriceDetails {
+	padding: 20px 0;
+}
+
+
+.pricingSectionContentTablePrice p {
+	
+	font-size: 13px;
+}
+.pricingSectionContentTablePrice h2 {
+	font-size: 20px;
+}
+.pricingSectionContentTablePrice h4 {
+	font-size: 16px;
+}
+.pricingSectionContentTable {
+	border-radius: 30px;
+}
+.smallBtn {
+	font-size: 15px;
+	padding: 11px 18px;
+	margin: 12px 0 0;
+	letter-spacing: 1px;
+}
+
+
+
+.daonloadIcon i {
+	font-size: 43px;
+}
+.appDaonloadIconText p {
+	font-size: 14px;
+}
+.appDaonloadIconText h4 {
+	font-size: 20px;
+}
+.appDaonloadIconText {
+	padding: 0 0 0 9px;
+}
+.appDownloadSectionContentText {
+	margin: 10px 0 10px 0;
+	width: 100%;
+	padding: 15px 100px;
+}
+
+
+
+
+
+
+
+
+.teamSectionContentSingle {
+	width: 75%;
+	margin: 20px 0 0 12%;
+}
+.teamSectionContentSingleImg {
+	width: 100%;
+	height: 300px;
+	margin: 0 0 0 0;
+}
+.teamSectionContentSingleDetails h4 {
+	font-size: 18px;
+}
+.teamSectionContentSingleDetails p {
+	font-size: 13px;
+}
+.teamSectionContentSingleDetails {
+	
+	padding: 20px 0;
+}
+
+.hoverItemTeamSectionContentSingleDetails ul li {
+	margin: 0 6px 0 9%;
+}
+.teamSectionContentSingleImg::before {
+	height: 300px;
+	width: 100%;
+}
+.hoverItemTeamSectionContentSingleDetails {
+	padding: 29.5px 38px;
+}
+
+
+
+
+.getTouchSectionContentContact {
+	padding: 15px 15px;
+}
+.input-form input, textarea {
+	padding: 7px 0 6px 40px;
+	font-size: 13px;
+}
+.sendBtn {
+	padding: 8px 11px;
+	font-size: 13px;
+}
+.input-form {
+	margin-bottom: 20px;
+}
+.getTouchSectionContentContact {
+	margin-bottom: 30px;
+}
+
+.getTouchSectionContentContactInfo ul li {
+	margin-bottom: 25px;
+}
+.getTouchSectionContentContactInfo ul li p {
+	padding: 0 0 0 40px;
+}
+
+.footerSectionContentCopyright {
+	margin-bottom: 12px;
+}
+.footerSectionContentMenu ul li a {
+	text-decoration: underline;
+}
+.footerSectionContentMenu ul li {
+	padding: 0 0 0 20px;
+}
+
+.slick-prev, .slick-next {
+	font-size: 8px;
+	height: 20px;
+	width: 20px;
+	top: 77%;
+}
+.sendBtn {
+	padding: 10px 20px;
+	height: 40px;
+}
+.footerSectionContentCopyright {
+	margin-bottom: 12px;
+	text-align: center;
+}
+.footerSectionContentMenu ul li {
+	padding: 0 0 0 10px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+
+
+.mobileLogo a {
+	font-size: 30px;
+}
+.mobileLogo {
+	padding: 5px 0;
+}
+.topSectionContent .slick-prev {
+	left: 40%;
+	z-index: 9999;
+}
+.topSectionContent .slick-next {
+	right: 42%;
+}
+.featureContentSingleText {
+	margin: 0 0 0 10%;
+}
+.aboutSectionContentText p span {
+	margin-top: 20px;
+}
+#clientSlider {
+	display: none;
+}
+
+
+.appDownloadSectionContentText {
+	padding: 15px 20px;
+}
+
+.hoverItemTeamSectionContentSingleDetails {
+	padding: 29px 20px;
+}
+.sendBtn {
+	padding: 5px 11px;
+	height: 30px;
+}
+
+.hoverItemTeamSectionContentSingleDetails ul li {
+	margin: 0 6px 0 8%;
+}
+.teamSectionContentSingle {
+	width: 100%;
+	margin: 20px 0 0 0;
+}
+
+.footerSectionContentCopyright {
+	margin-bottom: 12px;
+	text-align: center;
+}
+.footerSectionContentMenu ul li {
+	padding: 0 0 0 10px;
+}
+
+.slick-prev, .slick-next {
+	top: 88%;
+}
+
+}
+
+@media only screen and (max-width: 300px) {
+
+
+
+.mobileLogo img {
+	width: 75px;
+	margin: 5px 0;
+}
+.slick-prev, .slick-next {
+	font-size: 8px;
+	height: 20px;
+	width: 20px;
+	top: 77%;
+}
+.topSectionContentText h2 {
+	font-size: 20px;
+}
+.topSectionContentText p {
+	font-size: 11px;
+	margin: 25px 0;
+	letter-spacing: 0.5px;
+}
+.topSectionContentText {
+	padding: 50px 0 50px 0;
+}
+.largeBtn {
+	padding: 0 30px;
+	font-size: 15px;
+	height: 45px;
+}
+
+.topSectionContent .slick-prev {
+	left: 40%;
+	z-index: 9999;
+}
+.topSectionContent .slick-next {
+	right: 42%;
+}
+
+
+.sectionPadding {
+	padding: 50px 0;
+}
+.sectionTitleText h3 {
+	font-size: 18px;
+	padding: 0 0 20px 0;
+}
+.sectionTitleText p {
+	font-size: 12px;
+	letter-spacing: .1px;
+	line-height: 15px;
+}
+
+
+.featureContentSingleText {
+	margin: 0 0 0 10px;
+}
+
+.aboutSectionVedio video {
+	width: 100%;
+	height: 120px;
+}
+.featureContentSingleText h4 {
+	font-size: 14px;
+	padding: 10px 0 10px 0;
+}
+.featureContentSingleText p {
+	font-size: 12px;
+}
+.featureContentSingle i {
+	font-size: 20px;
+}
+.featureContentSingle {
+	margin-bottom: 10px;
+}
+.workSection {
+	display: block;
+}
+
+.workSectionVedio {
+	height: 115px;
+	width: 203px;
+}
+.WorkSectionContentSingle {
+	margin-bottom: 50px;
+}
+.WorkSectionContentSingle h4 {
+	font-size: 15px;
+	padding: 15px 0;
+}
+.WorkSectionContentSingle i {
+	font-size: 25px;
+}
+.WorkSectionContentSingle p {
+	font-size: 13px;
+	letter-spacing: .5px;
+}
+.screenshotSection {
+	display: none;
+}
+
+.aboutSectionContentText p {
+	font-size: 12px;
+}
+.aboutSectionContentText p span {
+	margin-top: 20px;
+}
+
+.sectionTitle {
+	margin-bottom: 50px;
+}
+
+
+
+.paddingBottomHundred {
+	padding-bottom: 0;
+}
+.featureContentSingle i {
+	font-size: 22px;
+}
+
+#clientSlider {
+	display: none;
+}
+.funFactSectionContentSingle h2 {
+	padding: 15px 0 6px 0;
+	font-size: 16px;
+}
+.funFactSectionContentSingle p {
+	font-size: 13px;
+}
+.funFactMarginBottom {
+	/* margin-bottom: 0; */
+}
+.funFactSectionContentSingle {
+	margin-bottom: 50px;
+}
+.funFactSectionContentSingle i {
+	font-size: 30px;
+}
+
+
+
+
+.pricingSectionContentTablePrice {
+	padding: 8px 0;
+	
+}
+.pricingSectionContentTablePriceDetails {
+	padding: 20px 0;
+}
+
+
+.pricingSectionContentTablePrice p {
+	
+	font-size: 13px;
+}
+.pricingSectionContentTablePrice h2 {
+	font-size: 18px;
+}
+.pricingSectionContentTablePrice h4 {
+	font-size: 16px;
+}
+.pricingSectionContentTable {
+	border-radius: 30px;
+}
+.pricingSectionContentTablePriceDetails ul li {
+	font-size: 12px;
+}
+.smallBtn {
+	font-size: 13px;
+	padding: 10px 15px;
+	margin: 10px 0 0;
+	letter-spacing: 1px;
+	height: 40px;
+}
+
+
+
+.daonloadIcon i {
+	font-size: 43px;
+}
+.appDaonloadIconText p {
+	font-size: 14px;
+}
+.appDaonloadIconText h4 {
+	font-size: 20px;
+}
+.appDaonloadIconText {
+	padding: 0 0 0 9px;
+}
+.appDownloadSectionContentText {
+	margin: 10px 0 10px 0;
+	width: 100%;
+	padding: 10px 15px;
+}
+
+.teamSectionContentSingle {
+	margin: 20px 0 0 0;
+	width: 100%;
+}
+.teamSectionContentSingleImg {
+	width: 100%;
+	height: 210px;
+}
+.teamSectionContentSingleDetails h4 {
+	font-size: 18px;
+}
+.teamSectionContentSingleDetails p {
+	font-size: 13px;
+}
+.teamSectionContentSingleDetails {
+	
+	padding: 20px 0;
+}
+.hoverItemTeamSectionContentSingleDetails {
+	padding: 29px 25px;
+}
+.hoverItemTeamSectionContentSingleDetails ul li {
+	margin: 0 6px 0 6px;
+}
+.hoverItemTeamSectionContentSingleDetails ul li a i {
+	font-size: 18px;
+}
+.teamSectionContentSingleImg::before {
+	height: 210px;
+}
+.teamSectionContentSingle:hover .teamSectionContentSingleDetails {
+	left: 14%;
+}
+.getTouchSectionContentContact {
+	padding: 15px 15px;
+}
+.input-form input, textarea {
+	padding: 7px 0 6px 40px;
+	font-size: 13px;
+}
+.sendBtn {
+	padding: 8px 15px;
+	font-size: 13px;
+	height: 35px;
+}
+.input-form {
+	margin-bottom: 20px;
+}
+.getTouchSectionContentContact {
+	margin-bottom: 30px;
+}
+
+.getTouchSectionContentContactInfo ul li {
+	margin-bottom: 25px;
+}
+.getTouchSectionContentContactInfo ul li p {
+	padding: 0 0 0 40px;
+}
+
+.footerSectionContentCopyright {
+	margin-bottom: 12px;
+	text-align: center;
+}
+.footerSectionContentMenu ul li a {
+	text-decoration: underline;
+}
+.footerSectionContentMenu ul li {
+	padding: 0 0 0 10px;
+}
+
+
+}
